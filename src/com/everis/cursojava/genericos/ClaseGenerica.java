@@ -1,13 +1,28 @@
 package com.everis.cursojava.genericos;
 
+/**
+ * The Class ClaseGenerica.
+ *
+ * @param <T> the generic type
+ */
 public class ClaseGenerica<T> {
-		  T obj;
+		  
+  		/** The obj. */
+  		T obj;
 		 
-		  public ClaseGenerica(T o) {
+		  /**
+  		 * Instantiates a new clase generica.
+  		 *
+  		 * @param o the o
+  		 */
+  		public ClaseGenerica(T o) {
 			 this.obj = o;
 		  }
 		 
-		  public void mostrarTipo() {
+		  /**
+  		 * Mostrar tipo.
+  		 */
+  		public void mostrarTipo() {
 		    System.out.println("El tipo de T es " + obj.getClass().getName());
 		  }
 }

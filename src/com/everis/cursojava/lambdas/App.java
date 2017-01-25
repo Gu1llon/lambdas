@@ -5,14 +5,25 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * The Class App.
+ */
 public class App {
 	
-	 public static void main(String[] args) {
+	 /**
+ 	 * The main method.
+ 	 *
+ 	 * @param args the arguments
+ 	 */
+ 	public static void main(String[] args) {
 		 App app = new App();
 		 app.ordenar();
 		 app.calcular();
 	 }
 	 
+	/**
+	 * Ordenar.
+	 */
 	public void ordenar() {
 		List<String> lista = new ArrayList<>();
 		lista.add("Aquiles Brinco");
@@ -42,6 +53,9 @@ public class App {
 		
 	 }
 	
+	/**
+	 * Calcular.
+	 */
 	public void calcular(){
 		
 //		Operacion operacion = new Operacion() {
